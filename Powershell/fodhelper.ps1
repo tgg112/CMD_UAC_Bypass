@@ -20,3 +20,4 @@ if (-not (Test-Admin)) {
 Write-Host "Running with Administrator privileges." -ForegroundColor Green
 
 # your code goes here
+pause
