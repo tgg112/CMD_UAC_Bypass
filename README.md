@@ -1,5 +1,5 @@
 # UAC_Bypasses
-A collection of Windows security research examples and documentation for learning about privilege boundaries, UAC behavior, and defensive detection.
+A collection of Windows security UAC bypasses and documentation for learning about privilege boundaries, UAC behavior, and defensive detection.
 
 ![Platform](https://img.shields.io/badge/Platform-Windows-blue)
 ![Purpose](https://img.shields.io/badge/Purpose-Education-green)
