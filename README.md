@@ -50,7 +50,7 @@ Understanding offensive techniques helps defenders:
 - Detect suspicious activity
 - Harden Windows environments
 
-
+---
 
 # BATCH & POWERSHELL UAC Bypasses Tierlist
 | Tier | Method | Reliability | Detection Risk | Notes |
