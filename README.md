@@ -30,6 +30,16 @@ The author is not responsible for misuse, damage, or unauthorized activity perfo
 
 ---
 
+## 📚 Topics Covered
+
+- Windows User Account Control (UAC)
+- Privilege boundaries
+- Windows security architecture
+- Detection and mitigation concepts
+- Defensive analysis techniques
+
+---
+
 ## 🧪 Recommended Environment
 
 For safe testing, use:
