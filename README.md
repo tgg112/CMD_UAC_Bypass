@@ -1,4 +1,55 @@
-# CMD_UAC_Bypass
+# UAC_Bypasses
+A collection of Windows security research examples and documentation for learning about privilege boundaries, UAC behavior, and defensive detection.
+
+![Platform](https://img.shields.io/badge/Platform-Windows-blue)
+![Purpose](https://img.shields.io/badge/Purpose-Education-green)
+![License](https://img.shields.io/badge/License-MIT-yellow)
+
+---
+
+## 📖 About
+
+This repository contains educational security research material focused on understanding how Windows security features work, how privilege boundaries can be tested in controlled environments, and how defenders can identify suspicious behavior.
+
+The goal is to help students, researchers, and defenders better understand Windows internals and improve security awareness.
+
+---
+
+## ⚠️ Disclaimer
+
+This project is intended for:
+
+- ✅ Security research
+- ✅ Defensive learning
+- ✅ CTFs and lab environments
+- ✅ Authorized testing only
+
+Do not use this material on systems you do not own or have explicit permission to test.
+
+The author is not responsible for misuse, damage, or unauthorized activity performed using this material.
+
+---
+
+## 🧪 Recommended Environment
+
+For safe testing, use:
+
+- A virtual machine
+- A Windows test installation
+- Snapshots before experiments
+- No personal data
+
+---
+
+## 🛡️ Defensive Notes
+
+Understanding offensive techniques helps defenders:
+
+- Improve monitoring
+- Configure security policies
+- Detect suspicious activity
+- Harden Windows environments
+
 
 
 # BATCH & POWERSHELL UAC Bypasses Tierlist
