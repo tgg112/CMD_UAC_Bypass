@@ -1,7 +1,7 @@
 # CMD_UAC_Bypass
 
 
-# BATCH UAC Bypasses Tierlist
+# BATCH & POWERSHELL UAC Bypasses Tierlist
 | Tier | Method | Reliability | Detection Risk | Notes |
 |------|--------|-------------|----------------|-------|
 | S | Fodhelper | ★★★★★ | Medium | Best overall. Most consistent on Windows 10 & Windows 11. |
