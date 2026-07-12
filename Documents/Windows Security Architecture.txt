@@ -1,0 +1,211 @@
+Windows Security Architecture
+Introduction
+
+Windows Security Architecture is the collection of systems, components, and security mechanisms that work together to protect the Windows operating system, user data, and applications.
+
+Windows uses a layered security approach, meaning that multiple security features work together rather than relying on a single protection mechanism. These layers help control access, verify identities, protect sensitive resources, and detect suspicious activity.
+
+Understanding Windows security architecture is important for system administrators, developers, security researchers, and defenders.
+
+Security Model Overview
+
+The Windows security model is based on several key principles:
+
+Authentication — verifying who a user or application is.
+Authorization — determining what that user or application is allowed to access.
+Access control — enforcing permissions on resources.
+Auditing — recording security-related activity.
+Isolation — separating processes and users to reduce risk.
+
+Together, these components create a controlled environment where users and applications can safely interact with the operating system.
+
+User Accounts and Identities
+
+Windows identifies users and services through security identifiers (SIDs).
+
+A SID is a unique value assigned to:
+
+User accounts.
+Groups.
+Computer accounts.
+System services.
+
+Windows uses SIDs instead of usernames when checking permissions. This allows the system to reliably identify security principals even if account names change.
+
+Authentication
+
+Authentication is the process of confirming the identity of a user or service.
+
+Common Windows authentication components include:
+
+Local Authentication
+
+Used when signing into a local Windows machine. Credentials are verified against information stored on the computer.
+
+Domain Authentication
+
+Used in managed environments where computers are connected to a Windows domain. A centralized server can verify users and manage access policies.
+
+Multi-Factor Authentication
+
+Adds additional verification steps beyond a password, improving account security.
+
+Authorization
+
+After a user is authenticated, Windows determines what resources they can access.
+
+Authorization decisions are based on:
+
+User identity.
+Group membership.
+Permissions.
+Security policies.
+Privileges assigned to the account.
+
+For example, an administrator account may have permission to modify system files, while a standard user may only have access to personal files.
+
+Access Control Lists (ACLs)
+
+Windows uses Access Control Lists to control access to resources.
+
+An ACL contains rules called Access Control Entries (ACEs). These entries define:
+
+Who can access a resource.
+What actions they can perform.
+
+Protected resources can have permissions such as:
+
+Read.
+Write.
+Modify.
+Execute.
+Full control.
+
+Examples of resources protected by ACLs include:
+
+Files.
+Folders.
+Registry keys.
+System objects.
+Security Descriptors
+
+A security descriptor is the structure Windows uses to store security information for an object.
+
+A security descriptor can contain:
+
+Owner information.
+Access Control Lists.
+Permissions.
+Auditing rules.
+
+Every protected Windows object can have a security descriptor that determines how it is accessed.
+
+Windows Security Components
+
+Windows includes many built-in security components that work together.
+
+User Account Control (UAC)
+
+Controls when applications receive elevated administrator privileges and helps prevent unauthorized system changes.
+
+Windows Defender
+
+Provides malware protection, threat detection, and security monitoring.
+
+Windows Firewall
+
+Controls network connections and helps prevent unauthorized communication.
+
+Secure Boot
+
+Helps ensure that only trusted software is loaded during system startup.
+
+BitLocker
+
+Provides disk encryption to protect data if a device is lost or stolen.
+
+# All of these can be bypassed, but this repo solely demonstrates a UAC prompt bypass.
+
+The Windows Kernel and Security
+
+The Windows kernel is the core part of the operating system responsible for managing hardware, memory, processes, and security enforcement.
+
+The kernel helps enforce:
+
+Process isolation.
+Memory protection.
+Access checks.
+Hardware security features.
+
+Because the kernel operates at a highly privileged level, protecting it is a critical part of Windows security.
+
+Processes and Security Contexts
+
+Every running process operates within a security context.
+
+This context determines:
+
+Which user started the process.
+What permissions it has.
+What resources it can access.
+
+Applications inherit security information from the account that launched them, unless additional permissions are granted.
+
+Security Logging and Auditing
+
+Windows records security-related activity through logging systems.
+
+Examples of information that can be recorded:
+
+Login events.
+Permission changes.
+Account changes.
+Security policy modifications.
+Application activity.
+
+Security logs help administrators investigate issues and identify suspicious behavior.
+
+Defense-in-Depth
+
+Windows security uses defense-in-depth, meaning multiple security layers protect the system.
+
+Examples include:
+
+Account security.
+Access controls.
+Antivirus protection.
+Network filtering.
+Encryption.
+System updates.
+Monitoring.
+
+If one security layer fails, other layers can reduce the impact.
+
+Security Best Practices
+
+Recommended practices include:
+
+Keep Windows updated.
+Use strong authentication methods.
+Avoid unnecessary administrator privileges.
+Enable security features such as encryption and antivirus protection.
+Regularly review permissions.
+Monitor unusual system activity.
+Install software only from trusted sources.
+Importance in Security Research
+
+Understanding Windows security architecture helps researchers and defenders:
+
+Analyze how Windows protects resources.
+Identify weak configurations.
+Improve software security.
+Build better detection methods.
+Understand how attacks and defenses interact.
+
+Security knowledge should be used responsibly, with proper authorization and controlled testing environments.
+
+Summary
+
+Windows Security Architecture is a complex system made up of authentication, authorization, access control, isolation, monitoring, and protection technologies.
+
+By combining multiple security mechanisms, Windows creates a layered defense designed to protect users, applications, and system resources. Understanding how these components interact is essential for anyone studying operating system security and defensive analysis.
