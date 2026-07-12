@@ -1,0 +1,241 @@
+Detection and Mitigation Concepts
+Introduction
+
+Detection and mitigation are two fundamental parts of cybersecurity. Detection focuses on identifying suspicious activity, security issues, or potential threats, while mitigation focuses on reducing risk and preventing problems from causing damage.
+
+A strong security strategy does not rely on a single protection method. Instead, it combines monitoring, prevention, response, and continuous improvement to create multiple layers of defense.
+
+What Is Detection?
+
+Detection is the process of identifying unusual, unauthorized, or potentially harmful activity within a system.
+
+Security teams use detection techniques to answer questions such as:
+
+What is happening on the system?
+Is this behavior expected?
+Could this activity indicate a security issue?
+What actions should be taken next?
+
+Detection does not always prevent an issue from occurring, but it allows defenders to respond quickly and reduce the impact.
+
+Types of Security Detection
+Signature-Based Detection
+
+Signature-based detection identifies known threats by comparing activity against a database of known patterns.
+
+Examples:
+
+Known malware files.
+Recognized malicious behavior patterns.
+Previously identified indicators.
+
+Advantages:
+
+Fast detection of known threats.
+Easy to automate.
+
+Limitations:
+
+Less effective against new or modified threats.
+Behavior-Based Detection
+
+Behavior-based detection looks for unusual actions rather than matching specific known patterns.
+
+Examples:
+
+A program suddenly accessing sensitive locations.
+Unexpected privilege changes.
+Unusual network activity.
+Abnormal process behavior.
+
+Advantages:
+
+Can detect previously unknown threats.
+Focuses on actions rather than exact files.
+
+Limitations:
+
+May require more analysis.
+Can produce false positives.
+Logging and Monitoring
+
+Logs provide a record of events that occur on a system. They are an important source of information for detecting security issues.
+
+Examples of useful logs include:
+
+User login activity.
+Process creation.
+Permission changes.
+System configuration changes.
+Security events.
+Network activity.
+
+Regular monitoring of logs helps identify patterns that may indicate suspicious behavior.
+
+Windows Security Monitoring
+
+Windows provides several tools and features that assist with detection.
+
+Examples include:
+
+Event Viewer
+
+Windows Event Viewer stores system and security-related events.
+
+It can provide information about:
+
+Authentication attempts.
+Application activity.
+System changes.
+Security-related actions.
+Microsoft Defender
+
+Microsoft Defender provides protection through:
+
+Malware detection.
+Threat monitoring.
+Security alerts.
+Real-time protection.
+Security Auditing
+
+Windows auditing policies can record important security events for investigation and analysis.
+
+What Is Mitigation?
+
+Mitigation is the process of reducing the impact or likelihood of a security issue.
+
+While detection identifies problems, mitigation focuses on preventing them from becoming larger incidents.
+
+Examples include:
+
+Removing unnecessary permissions.
+Applying security updates.
+Restricting access.
+Changing insecure configurations.
+Improving monitoring.
+Common Mitigation Strategies
+Least Privilege
+
+Users and applications should only receive the permissions required for their tasks.
+
+Benefits:
+
+Reduces attack surface.
+Limits damage from compromised applications.
+Improves overall security.
+Software Updates
+
+Keeping software updated helps address known security weaknesses.
+
+Updates may include:
+
+Security patches.
+Bug fixes.
+Stability improvements.
+Access Control
+
+Restricting access to important resources helps prevent unauthorized changes.
+
+Examples:
+
+Strong file permissions.
+Account restrictions.
+Security policies.
+Application Control
+
+Organizations can control which applications are allowed to run.
+
+Examples:
+
+Allow lists.
+Application reputation checks.
+Software management policies.
+Security Configuration
+
+Proper system configuration reduces unnecessary risks.
+
+Examples:
+
+Enabling security features.
+Disabling unused services.
+Reviewing permissions.
+Using secure defaults.
+Incident Response
+
+When suspicious activity is detected, organizations follow an incident response process.
+
+Common stages include:
+
+Identification
+
+Determine what happened and whether it represents a security issue.
+
+Containment
+
+Limit the spread or impact of the issue.
+
+Recovery
+
+Restore normal operation and verify that systems are secure.
+
+Review
+
+Analyze what happened and improve defenses to prevent similar events.
+
+Detection and Mitigation Working Together
+
+Detection and mitigation are most effective when combined.
+
+Example:
+
+Monitoring identifies unusual activity.
+Security teams investigate the event.
+Mitigation steps reduce risk.
+Policies and protections are improved.
+
+This creates a continuous security improvement cycle.
+
+Defensive Analysis Techniques
+
+Security professionals use analysis techniques to better understand system behavior.
+
+Examples:
+
+Reviewing system logs.
+Monitoring processes.
+Examining file activity.
+Investigating alerts.
+Comparing normal and abnormal behavior.
+Testing security configurations.
+
+The goal is to understand how systems operate and identify areas where security can be improved.
+
+Security Best Practices
+
+Recommended practices include:
+
+Enable security logging.
+Regularly review system activity.
+Keep software updated.
+Use strong authentication.
+Limit administrative access.
+Train users about security risks.
+Maintain backups.
+Regularly test security controls.
+Importance in Security Research
+
+Understanding detection and mitigation helps security researchers and defenders:
+
+Build better security tools.
+Identify weaknesses responsibly.
+Improve monitoring systems.
+Develop stronger defenses.
+Respond effectively to security incidents.
+
+Security research should always be performed in authorized environments with the goal of improving protection.
+
+Summary
+
+Detection and mitigation are essential parts of a modern security strategy. Detection helps identify suspicious behavior, while mitigation reduces risks and prevents future issues.
+
+By combining monitoring, access controls, secure configurations, updates, and responsible analysis, organizations can create stronger defenses against security threats.
