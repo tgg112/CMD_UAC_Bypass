@@ -1,0 +1,238 @@
+Defensive Analysis Techniques
+Introduction
+
+Defensive analysis is the process of examining systems, applications, networks, and security events to identify risks, understand behavior, and improve protection.
+
+Security defenders use analysis techniques to determine whether activity is normal, suspicious, or potentially harmful. The goal is not only to respond to threats but also to understand how systems operate and strengthen security before issues occur.
+
+What Is Defensive Analysis?
+
+Defensive analysis involves collecting and examining information from a system to improve security.
+
+This can include:
+
+Reviewing system activity.
+Investigating security alerts.
+Monitoring applications and processes.
+Examining logs.
+Identifying unusual behavior.
+Improving security controls.
+
+Defensive analysis is an important part of cybersecurity because effective protection requires understanding both normal system behavior and potential threats.
+
+Process Analysis
+
+Processes are programs currently running on a system. Monitoring them helps defenders understand what software is active and what actions it is performing.
+
+Analysts may examine:
+
+Running applications.
+Parent and child processes.
+Process permissions.
+Resource usage.
+Digital signatures.
+File locations.
+
+Suspicious indicators can include:
+
+Unknown applications running unexpectedly.
+Programs executing from unusual locations.
+Unexpected privilege levels.
+Processes behaving differently from their intended purpose.
+Log Analysis
+
+Logs provide a record of events that occur within an operating system or application.
+
+Common sources include:
+
+Operating system logs.
+Security logs.
+Application logs.
+Firewall logs.
+Authentication records.
+
+Analysts review logs to identify:
+
+Failed login attempts.
+Unusual account activity.
+Configuration changes.
+Unexpected application behavior.
+Security-related events.
+
+Effective log analysis helps identify problems that may otherwise go unnoticed.
+
+File and Integrity Analysis
+
+File analysis involves examining files and their properties to determine whether they are expected or suspicious.
+
+Common checks include:
+
+File location.
+File metadata.
+Digital signatures.
+Hash values.
+File permissions.
+Changes over time.
+
+File integrity monitoring can help detect unauthorized modifications to important system files.
+
+Network Analysis
+
+Network analysis focuses on monitoring communication between systems.
+
+Security professionals may examine:
+
+Network connections.
+Traffic patterns.
+Communication destinations.
+Protocol usage.
+Unusual data transfers.
+
+Network analysis can help identify:
+
+Unexpected connections.
+Misconfigured services.
+Suspicious communication patterns.
+Potential security incidents.
+Behavioral Analysis
+
+Behavioral analysis focuses on what a program or user does rather than only what it is.
+
+Examples of behavior that may be analyzed:
+
+Changes to system settings.
+Attempts to access protected resources.
+Unusual application activity.
+Unexpected privilege requests.
+
+This approach is useful because suspicious behavior can sometimes be detected even when the exact threat is unknown.
+
+Threat Hunting
+
+Threat hunting is a proactive approach where defenders search for signs of suspicious activity before an alert is generated.
+
+Threat hunters may look for:
+
+Unusual processes.
+Abnormal authentication activity.
+Unexpected system changes.
+Known indicators of compromise.
+
+Unlike traditional monitoring, threat hunting actively searches for potential security issues.
+
+Baseline Analysis
+
+A security baseline represents what normal system behavior looks like.
+
+Defenders establish baselines by observing:
+
+Normal applications.
+Expected network activity.
+Common user behavior.
+Regular system changes.
+
+Once a baseline is established, unusual activity becomes easier to identify.
+
+Example:
+
+A computer that normally runs only approved applications may be investigated if a new unknown program suddenly appears.
+
+Security Tools
+
+Defenders use many different tools to assist with analysis.
+
+Examples include:
+
+Event Viewer
+
+Used to review Windows system and security events.
+
+Task Manager
+
+Provides information about running applications and resource usage.
+
+Performance Monitor
+
+Helps analyze system performance and behavior over time.
+
+Endpoint Security Solutions
+
+Provide monitoring, detection, and response capabilities.
+
+Network Monitoring Tools
+
+Help analyze communication between systems.
+
+Malware and Incident Analysis
+
+When investigating suspicious software or incidents, defenders may analyze:
+
+How the program behaves.
+What files it creates.
+What system changes occur.
+What permissions it requests.
+What network activity it performs.
+
+Analysis is usually performed in controlled environments to prevent accidental impact.
+
+Static and Dynamic Analysis
+Static Analysis
+
+Static analysis examines software without running it.
+
+Examples:
+
+Reviewing file information.
+Examining code structure.
+Checking metadata.
+Comparing file hashes.
+
+Benefits:
+
+Safer than execution.
+Useful for identifying known characteristics.
+Dynamic Analysis
+
+Dynamic analysis observes software while it is running in a controlled environment.
+
+Examples:
+
+Monitoring processes.
+Observing file changes.
+Recording network activity.
+
+Benefits:
+
+Shows real behavior.
+Helps understand complex software activity.
+Improving Defensive Security
+
+Analysis results can be used to improve security by:
+
+Creating better detection rules.
+Adjusting security policies.
+Removing unnecessary permissions.
+Improving monitoring.
+Training users.
+Updating response procedures.
+
+Security is an ongoing process where defenders continuously learn from previous events.
+
+Responsible Security Research
+
+Defensive analysis should always be performed responsibly.
+
+Good practices include:
+
+Testing only on authorized systems.
+Using isolated environments when needed.
+Protecting sensitive information.
+Documenting findings clearly.
+Sharing information to improve security.
+Summary
+
+Defensive analysis techniques allow security professionals to understand systems, identify suspicious activity, and improve protection.
+
+By combining process monitoring, log analysis, behavioral analysis, threat hunting, and other methods, defenders can detect problems earlier and create stronger security environments.
+
+Understanding defensive analysis is essential for building secure systems and responding effectively to modern cybersecurity challenges.
